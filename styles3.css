@@ -37,7 +37,6 @@ header{
 aside {
     
     display: inline-block;
-    display: flexbox;
     justify-content: flex-start;
     position: relative;
     left: 15%;
@@ -116,7 +115,6 @@ nav a{
     font-size: 30px;
     font-weight: 600;
     display: block;
-    border: 1px black solid;
     background-color: black;
     color: #fff;
     text-align: center;

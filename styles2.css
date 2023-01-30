@@ -61,7 +61,6 @@ nav a{
 .subtitulo{
     font-size: 30px;
     display: block;
-    border: 1px black solid;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -71,7 +70,7 @@ nav a{
 }
 aside{
     display: inline-block;
-    display: flexbox;
+    display: flex;
     justify-content: flex-start;
 }
 
