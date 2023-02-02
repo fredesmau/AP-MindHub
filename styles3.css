@@ -12,14 +12,13 @@ body{
 header{
     width: 100%;
     display: inline-block;
-    
-    margin-top: 50px;
-    margin-bottom: 10px;
-    padding: 10px ;
-    background-color: rgb(50, 49, 51);
+    background-color: rgb(0,0,0);
+    /* background: linear-gradient(180deg, rgb(0, 0, 0) 0%, 80%, rgb(66, 65, 65) 100%); */
     position: relative;
-    
-    
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -27,10 +26,9 @@ header{
     font-size: 65px;
     font-weight: 800;
     display: inline;
-    position: relative;
-    left: 520px;
     color: #fff;
     text-align: center;
+    justify-items: center;
     
 }
 
@@ -41,7 +39,8 @@ aside {
     position: relative;
     left: 15%;
     bottom: 150px;
-    background-color: rgb(63, 1, 121);
+    background-color:rgb(18, 76, 131);
+    background: linear-gradient(180deg, rgba(18, 76, 131,1) 0%, rgba(9,22,121,1) 30%, rgb(168, 76, 0) 100%);
     border-radius: 20% 20% 130% 130%;
     border: rgb(0, 0, 0) 5px solid ;
 }
@@ -50,8 +49,38 @@ aside img{
     display: inline-block;
 }
 
+nav{
+    
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    box-shadow:0px 30px 70px 0px black ;
+    
+}
+
+nav a{
+    width: 300px;
+    display:inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+} 
 
 
+/* 
+Nav anterior
 nav{
     
     height: 50px;
@@ -59,8 +88,9 @@ nav{
     display: flex;
     background-color: black;
     width: 100%;
-    
-    
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     
 }
 
@@ -72,43 +102,37 @@ nav a{
     padding: 30px 10px;
     padding-bottom: 0px;
     position: relative;
-    left: 440px;
+    left: 100px;
     text-align: center;
     justify-content: space-around;
     padding: 10px;
-    
-    
-}
+} */
 
 
 
 .activo{
-    background-color: rgb(136, 69, 199);
+    background-color: rgb(49, 115, 177);
     color: #fff;
     text-decoration:none;
     border-bottom: #fff 4px solid;
     margin: 0 8px;
-    position: relative;
-    
-    
+    position: relative; 
 }
 
 
 .inactivo{
-    background-color: rgb(63, 1, 121);
+    background-color:rgb(18, 76, 131);
     color: #fff;
     text-decoration:none;
-    
-    margin: 0 8px
+    margin: 0 8px;
+    position: relative; 
 }
 
 .banner img{
-    padding-top: 10px;;
     width: 78.5%;
     height: 350px;
     margin-left: 200px;
-    object-fit: cover
-
+    object-fit: cover;
 }
 
 .subtitulo{
@@ -134,11 +158,11 @@ main{
 }
 
 h3{
-    background: rgb(63,1,121);
-    background: linear-gradient(90deg, rgba(63,1,121,1) 0%, rgba(9,22,121,1) 15%, rgb(153, 153, 153) 100%);
+    width: auto;
+    background: linear-gradient(90deg, rgba(18, 76, 131,1) 0%, rgba(9,22,121,1) 70%, rgb(168, 76, 0) 100%);
     border-radius: 80px 0% 0% 0% ;
     color: #fff;
-    text-indent: 40px;
+    text-indent: 70px;
     font-style: italic;
     font-size: 25px;
     font-weight: 800;
@@ -160,4 +184,52 @@ footer{
     margin-right: 250px;
     font-size: 20px;
     padding: 50px;
+}
+.aclaration{
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+table{
+    background-color: rgb(101, 138, 138);
+    color:#fff;
+    text-align: center;
+
+}
+
+th{
+    padding: 15px 70px;
+    background-color:rgb(18, 76, 131);
+    font-size: 20px;    
+}
+
+td{
+    padding: 10px 0px;
+    background-color:rgb(30, 104, 173);
+    font-size: 18px;
+    
+}
+
+h4{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.p-info{
+    font-size: 20px;
+    font-weight: 100;
+    display: inline-block;
+    text-indent: 10px;
+}
+
+.h3-titulo span{
+   position: relative;
+    left: 80px;
+}
+
+li{
+    text-indent: 10px;
+    position: relative;
+    left: 30px;;
 }
