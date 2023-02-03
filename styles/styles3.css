@@ -7,16 +7,16 @@
 body{
     background-color: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgb(141, 141, 141) 0%, rgb(168, 168, 168) 20%, rgba(255,255,255,1) 100%);
+    
 }
 
 header{
     width: 100%;
-    display: inline-block;
-    background-color: rgb(0,0,0);
-    /* background: linear-gradient(180deg, rgb(0, 0, 0) 0%, 80%, rgb(66, 65, 65) 100%); */
-    position: relative;
+    /* background-color: rgb(0,0,0); */
+    background: black; 
+    height: 180px;
     margin-top: 10px;
-    display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     
@@ -28,40 +28,22 @@ header{
     display: inline;
     color: #fff;
     text-align: center;
-    justify-items: center;
-    
+    justify-items: center;   
 }
 
-aside {
-    
-    display: inline-block;
-    justify-content: flex-start;
-    position: relative;
-    left: 15%;
-    bottom: 150px;
-    background-color:rgb(18, 76, 131);
-    background: linear-gradient(180deg, rgba(18, 76, 131,1) 0%, rgba(9,22,121,1) 30%, rgb(168, 76, 0) 100%);
-    border-radius: 20% 20% 130% 130%;
-    border: rgb(0, 0, 0) 5px solid ;
-}
-
-aside img{
-    display: inline-block;
-}
-
+/* nav mejorado */
 nav{
-    
-    height: auto;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    background-color: black;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, 70%, rgb(108, 108, 108) 100%); 
     z-index: 1;
     margin-bottom: 10px;
-    overflow: hidden;
+    top: 0px;
+    box-shadow:0px 30px 70px 0px black;
     position: sticky;
     top: 0px;
-    box-shadow:0px 30px 70px 0px black ;
+    margin-top: -55px;
     
 }
 
@@ -75,9 +57,28 @@ nav a{
     align-items: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    
 
 } 
 
+aside {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    justify-content: flex-start;
+    position: relative;
+    left: 15%;
+    bottom: 150px;
+    background-color:rgb(18, 76, 131);
+    background: linear-gradient(180deg, rgba(18, 76, 131,1) 0%, rgba(9,22,121,1) 30%, rgb(168, 76, 0) 100%);
+    border-radius: 20% 20% 130% 130%;
+    border: rgb(0, 0, 0) 5px solid ;
+}
+
+aside img{
+    display: inline-block;
+    
+}
 
 /* 
 Nav anterior
@@ -116,7 +117,7 @@ nav a{
     text-decoration:none;
     border-bottom: #fff 4px solid;
     margin: 0 8px;
-    position: relative; 
+    position: relative;
 }
 
 
@@ -127,11 +128,16 @@ nav a{
     margin: 0 8px;
     position: relative; 
 }
+.banner{
+    height: 350px;
+    width: 78.5%;
+    background-color: antiquewhite;
+    margin-left: 200px;
+}
 
 .banner img{
-    width: 78.5%;
+    width: 100%;
     height: 350px;
-    margin-left: 200px;
     object-fit: cover;
 }
 
