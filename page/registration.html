@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/LogoMightyDucks-01.png">
+    <link rel="stylesheet" href="../styles/styles3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <title>Game Information - MDHL</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">Mighty Ducks Hockey League</h1>
+    </header>
+
+    <nav>
+        <a class="inactivo" href="../index.html">Home</a>
+        <a class="inactivo" href="../page/game_info.html">Game Information</a>
+        <a class="activo" href="../page/registration.html">Registration</a>
+        <a class="inactivo" href="../page/about.html">About MDHL</a>
+        <a class="inactivo" href="../page/rules.html">Rules</a>
+        <a class="inactivo" href="../page/contact.html">Contact</a>
+    </nav>
+
+    <div class="banner">
+        <img src="../assets/design1_image1.jpg" alt="Two contrincants playing hockey">
+    </div>
+    <h2 class="subtitulo">Registration</h2>
+
+    <aside>
+        <img src="../assets/LogoMightyDucks-01.png" alt="Logo" width="200">
+    </aside>
+
+    <main>
+
+        <h3>Registration Form</h3><br>
+
+        <form action="../page/show_data.html" method="get">
+            <fieldset>
+                <legend>Personal Data</legend>
+                <label for="name">Player's First Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required><br>
+
+                <label for="address">Street Address:</label>
+                <input type="text" name="address" id="address" required>
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" required>
+
+                <label for="zcode">ZIP Code:</label>
+                <input type="number" name="zcode" id="zcode" required><br>
+
+                <label for="birth">Birth Date(mm/dd/yy):</label>
+                <input type="date" name="birth" id="birth" required>
+
+                <label for="gender">Gender:</label>
+                <label for="female">Female</label>
+                <input type="checkbox" name="female" id="gender" value="female">
+                <label for="male">Male</label>
+                <input type="checkbox" name="male" id="gender" value="male"><br>
+
+                <label for="grade">Grade:</label>
+                <label for="Pre-School">Pre-School</label>
+                <input type="checkbox" name="grade" id="Pre-School" value="pre-school">
+                <label for="1st">1st</label>
+                <input type="checkbox" name="grade" id="1st" value="1st">
+                <label for="2nd">2nd</label>
+                <input type="checkbox" name="grade" id="2nd" value="2nd">
+                <label for="3rd">3rd</label>
+                <input type="checkbox" name="grade" id="3rd" value="3rd">
+                <label for="4th">4th</label>
+                <input type="checkbox" name="grade" id="4th" value="4th">
+                <label for="5th">5th</label>
+                <input type="checkbox" name="grade" id="5th" value="5th">
+            </fieldset>
+
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+                <label for="school">Closest School:</label><br><br>
+                <label for="AJ Katzenmaier">AJ Katzenmaier</label>
+                <input type="checkbox" name="school" id="AJ Katzenmaier" value="AJ Katzenmaier">
+                <label for="Greenbay">Greenbay</label>
+                <input type="checkbox" name="school" id="Greenbay" value="Greenbay">
+                <label for="Howard A Yeager">Howard A Yeager</label>
+                <input type="checkbox" name="school" id="Howard A Yeager" value="Howard A Yeager">
+                <label for="Marjorie P Hart">Marjorie P Hart</label>
+                <input type="checkbox" name="school" id="Marjorie P Hart" value="Marjorie P Hart"><br>
+                <label for="North Elementary">North Elementary</label>
+                <input type="checkbox" name="school" id="North Elementary" value="North Elementary">
+                <label for="South Elementary">South Elementary</label>
+                <input type="checkbox" name="school" id="South Elementary" value="South Elementary"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <label for="position"></label><br>
+                <label for="Forward">Forward</label>
+                <input type="checkbox" name="position" id="Forward" value="Forward">
+                <label for="Defense">Defense</label>
+                <input type="checkbox" name="position" id="Defense" value="Defense">
+                <label for="Midfield">Midfield</label>
+                <input type="checkbox" name="position" id="Midfield" value="Midfield">
+                <label for="Goalkeeper">Goalkeeper</label>
+                <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Uniform Size</legend>
+                <label for="uniform"></label><br>
+                <label for="Youth Smalle">Youth Small</label>
+                <input type="checkbox" name="uniform" id="Youth Small" value="Youth Small">
+                <label for="Youth Medium">Youth Medium</label>
+                <input type="checkbox" name="uniform" id="Youth Medium" value="Youth Medium">
+                <label for="Youth Large">Youth Large</label>
+                <input type="checkbox" name="uniform" id="Youth Large" value="Youth Large">
+                <label for="Small">Small</label>
+                <input type="checkbox" name="uniform" id="Small" value="Small">
+                <label for="Medium">Medium</label>
+                <input type="checkbox" name="uniform" id="Medium" value="Medium">
+                <label for="Large">Large</label>
+                <input type="checkbox" name="uniform" id="Large" value="Large"><br>
+                <label for="Extra-Large">Extra-Large</label>
+                <input type="checkbox" name="uniform" id="Extra-Large" value="Extra-Large"><br><br>
+            </fieldset><br>
+
+            <fieldset>
+                <h4>Permission to play</h4>
+                <p class="p-info">I, the parent or guardian of the minor registrant, agree that the registrant and I will be abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of phydical injury asociated with hockey programs and activities, I hereby release, discharge and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registranr as a result of the registrant's participation in the programand/orbeing transported to or MDHL sponsored activities, which transportation.
+                By signin below, I hereby agree and authorize the above. In addition, by signing nelow laslo acknowledge that I have read the cancellation policy and agree to its terms.
+                </p>
+                <label for="siganture">Parent/Guardian Signature:</label>
+                <input type="text" name="signature" id="signature" required>
+                <label for="birth">Date:</label>
+                <input type="date" name="birth" id="birth" required>
+
+            </fieldset><br>
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Limpiar Formulario">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <br><br>
+        <h6>All rights reserved by © Mauricio Fredes 2023</h6>
+    </footer>
+    
+</body>
+</html>
